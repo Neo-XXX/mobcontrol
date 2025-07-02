@@ -6,22 +6,24 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "vite preview"
+    "start": "vite preview",
+    "preview": "vite preview"
   },
-  "keywords": [],
+  "keywords": ["game", "phaser", "3d", "mob-control"],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
     "enable3d": "^0.26.1",
     "mongodb": "^6.17.0",
-    "phaser": "^3.90.0",
-    "vite": "^7.0.0"
-  },
-  "engines": {
-    "node": "22.x"
+    "phaser": "^3.90.0"
   },
   "devDependencies": {
-    "@vercel/node": "^5.3.0"
+    "vite": "^5.4.10",
+    "@vercel/node": "^3.2.17"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
   }
 }
